@@ -1,0 +1,50 @@
+
+
+body{
+    text-align: center;
+}
+
+h1{
+    border: 3px solid black;
+    background-color: bisque;
+    padding: 10px;
+    width: 40vw;
+    position: relative;
+    left: 30%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 100px;
+
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: yellow;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: red;
+}
