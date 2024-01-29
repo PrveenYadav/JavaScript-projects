@@ -1,0 +1,60 @@
+
+
+body{
+    background-color:darkslateblue;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 100px;
+    gap: 50px;
+
+}
+
+h1{
+    background-color: cadetblue;
+    position: relative;
+    left: 30%;
+    padding: 10px;
+    width: 40vw;
+    border: 3px solid black;
+}
+
+.color-box{
+    background-color:lightskyblue;
+    border: none;
+    height: 370px;
+    width: 370px;
+    border-radius: 50%;
+}
+
+#red{
+    background-color: rgb(255, 112, 112);
+    color: white;
+}
+
+#green{
+    background-color: rgb(140, 225, 140);
+    color: white;
+}
+
+#blue{
+    background-color: rgb(133, 133, 255);
+    color: white;
+}
+
+input{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+}
+
